@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    h1{
+      color:red ;
+      font-size: 10rem;
+      font-family: sans-serif;
+      text-align: center;
+    }
+   button{
+    width: 600px;
+    background-color: gold;
+    height: 150;
+    border-radius: 20px;
+    font-size: 70px;
+    font-weight:bold;
+    margin: 30px;
+  }
+  </style>
+</head>
+<body>
+  <h1 id="mesange">Will your be my life partner 💞💕?</h1>
+
+<button onclick="propose()">Yes</button>
+<button onclick="proposee()">Of course, yes</button>
+<script>
+  function propose(){
+    var msg ="i love you 🥰💕💖";
+    document.getElementById('mesange').innerText=msg;
+  }
+  function proposee(){
+    var msg ="I Love You Jan 💞💞💞";
+    document.getElementById('mesange').innerText=msg;
+  }
+</script>
+</body>
+</html>
